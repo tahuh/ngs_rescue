@@ -6,7 +6,6 @@
  * Author : Sunghoon Heo
  * 
  * This code requires Heng Li's kseq.h C library for fastq parsing for safety
- * Also requres mg_string library for split string and mg_vector for storage system
  */
 
 
