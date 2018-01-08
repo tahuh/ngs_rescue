@@ -8,5 +8,5 @@ TARGET = rescue
 all : $(TARGET)
 
 $(TARGET) : $(OBJS)
-  $(CC) $(CFLAGS) -o $@ $^
+  $(CC) $(CFLAGS) -o $@ $^ $(LIBS)
   
