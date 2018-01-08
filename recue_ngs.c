@@ -13,10 +13,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <zlib.h>
-#include <stdlib.h>
+#include <assert.h>
+#include <time.h>
 #include "kseq.h"
 
 #include "mg_vector.h"
+#include "mg_string.h"
 // Remark
 // NGS index combination is always p7 + p5 reverse complement
 char *fwd_index = NULL;
