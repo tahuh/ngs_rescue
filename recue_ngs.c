@@ -6,6 +6,7 @@
  * Author : Sunghoon Heo
  * 
  * This code requires Heng Li's kseq.h C library for fastq parsing for safety
+ * Also requres mg_string library for split string and mg_vector for storage system
  */
 
 
@@ -15,7 +16,7 @@
 #include <stdlib.h>
 #include "kseq.h"
 
-#include "kseq.h"
+#include "mg_vector.h"
 // Remark
 // NGS index combination is always p7 + p5 reverse complement
 char *fwd_index = NULL;
