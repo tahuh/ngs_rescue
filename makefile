@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -O3 -g
 LIBS = -lz
 OBJS = rescue_ngs.o mg_string.o mg_vector.o
-TARGET = rescue
+TARGET = rescue_ngs
 .SUFFIEXES : .c .o
 
 all : $(TARGET)
