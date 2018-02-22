@@ -31,7 +31,7 @@ char *rev_fname = NULL;
 char rc_index[9] = {0,};
 int strict = 0;
 int single_mode = 0;
-const char *usage = "./rescue [options] undet1.fq <undet2.fq...>\n"
+const char *usage = "./rescue_ngs [options] undet1.fq <undet2.fq...>\n"
 "[Options]\n"
 "    -e     INT    tolerate untill INT mismatches. Default = 1\n"
 "    -f     STR    p5_index(fwd in D.Bang's Lab). Required. Always must be set\n"
